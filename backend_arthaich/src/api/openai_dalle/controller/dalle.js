@@ -16,8 +16,9 @@ module.exports = {
               size: "512x512",
             });
         
-            console.log(response.data.data[0].url);
+            console.log(response.data.data[0].url)
             ctx.send({ data: response.data.data[0].url });
+
 
       } catch (error) {
         if (error.response) {
