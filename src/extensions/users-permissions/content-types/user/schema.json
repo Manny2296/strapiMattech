@@ -94,6 +94,19 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::plan.plan"
+    },
+    "EducationLevel": {
+      "type": "enumeration",
+      "enum": [
+        "Sciences de la santé",
+        " Sciences humaines et sociales Sciences technologies ingénierie et mathématiques (STEM) Sciences naturelles ",
+        "Droit",
+        " Affaires et commerce",
+        " Arts et design",
+        " Éducation",
+        "Agriculture et sciences environnementales",
+        "Informatique et technologie de l'information Journalisme et communication"
+      ]
     }
   }
 }
